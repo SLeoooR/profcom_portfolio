@@ -1,0 +1,186 @@
+  html, body {
+    font-family: 'Rubik', sans-serif;
+  }
+  .navbar, .py-dot10{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .nav-login {
+    margin-top: -10px;
+    margin-bottom: -10px;
+  }
+  .fill-screen{
+    min-height: 90%;
+  }
+  .text-green{
+    color: #84C971;
+  }
+  #update_form {
+    display: none;
+  }
+  #update_form_pw {
+    display: none;
+  }
+  .carousel-inner .carousel-item {
+    transition: -webkit-transform 2s ease;
+    transition: transform 2s ease;
+    transition: transform 2s ease, -webkit-transform 2s ease;
+  }
+  @media (min-width: 768px) {
+    .carousel-multi-item-2 .col-md-3 {
+      float: left;
+      width: 25%;
+      max-width: 100%; 
+    } 
+  }
+  .carousel-multi-item-2 .card img {
+    border-radius: 2px; 
+  }
+  .gallery {
+    background-color: #E9ECEF;
+  }
+
+  /* start openstreetmap */
+  .ol-popup {
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #cccccc;
+    bottom: 12px;
+    left: -50px;
+    min-width: 200px;
+  }
+  .ol-popup:after, .ol-popup:before {
+    top: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+  }
+  .ol-popup:after {
+    border-top-color: white;
+    border-width: 10px;
+    left: 48px;
+    margin-left: -10px;
+  }
+  .ol-popup:before {
+    border-top-color: #cccccc;
+    border-width: 11px;
+    left: 48px;
+    margin-left: -11px;
+  }
+  .ol-popup-closer {
+    text-decoration: none;
+    position: absolute;
+    top: 2px;
+    right: 8px;
+  }
+  .ol-popup-closer:after {
+    content: "✖";
+  }
+  /* end openstreetmap */
+
+  /* start bootstrap signin/register */
+  .form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+  }
+  .form-signin .checkbox {
+    font-weight: 400;
+  }
+  .form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+  }
+  .form-signin .form-control:focus {
+    z-index: 2;
+  }
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  /* end bootstrap signin/register */
+
+  /* custom grid for 5 columns */
+  .col-xs-5ths,
+  .col-sm-5ths,
+  .col-md-5ths,
+  .col-lg-5ths {
+      position: relative;
+      min-height: 1px;
+      padding-right: 15px;
+      padding-left: 15px;
+  }
+
+  /* Very small devices (phones, 0px and up) */
+  @media (min-width: 0px) {
+    .jumbotron h1 {
+        font-size: 2em;
+    }
+    h1 {
+      font-size: 2em;
+    }
+    .col-xs-5ths {
+      width: 50%;
+      float: left;
+    }
+  }
+  /* Small devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    .jumbotron h1 {
+        font-size: 2.5em;
+    }
+    .display-5 {
+      font-size: 2.5em;
+    }
+    .col-sm-5ths {
+      width: 50%;
+      float: left;
+    }
+  }
+
+  /* Medium devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .jumbotron h1 {
+        font-size: 3em;
+    }
+    .display-5 {
+      font-size: 3em;
+    }
+    .navcenter {
+      margin: 0;
+    }
+    .col-md-5ths {
+      width: 33.33%;
+      float: left;
+    }
+  }
+
+  /* Large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    .jumbotron h1 {
+        font-size: 3em;
+    }
+    .display-5 {
+      font-size: 3em;
+    }
+    .col-lg-5ths {
+      width: 20%;
+      float: left;
+    }
+  }

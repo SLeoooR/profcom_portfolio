@@ -1,0 +1,46 @@
+.container-main {
+	min-height: 100%;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.container-sub {
+	min-height: 50%;
+	width: 100%;
+}
+.row {
+	padding: 0px;
+}
+.nav-stretch {
+	padding-right: 0px; padding-left: 0px;
+}
+.navbar {
+	margin-right: 0px; 
+	margin-left: 0px;
+	margin-top: 0px;
+	padding-top: 0px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	display: flex;
+}
+.nav-item {
+	padding-right: 72.5px;
+	padding-left: 72.5px;
+}
+.nav-link {
+	border-left: 1px solid gray;
+}
+#last-nav {
+	border-right: 1px solid gray;
+}
+.navbar-nav {
+	display: flex;
+}
+.d-block {
+	height: 550px;
+}
+#gallery {
+	margin-bottom: 20px;
+}
+footer {
+	background-color: black;
+}
